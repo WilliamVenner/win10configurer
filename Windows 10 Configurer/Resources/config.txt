@@ -1,0 +1,23 @@
+3dbuilder>3D Builder
+windowsalarms>Alarms & Clock
+windowscalculator>Calculator
+windowscommunicationsapps>Calendar & Mail
+windowscamera>Camera
+officehub>Get Office
+skypeapp>Skype
+getstarted>Get Started
+zunemusic>Groove Music
+windowsmaps>Maps
+solitairecollection>Microsoft Solitaire Collection
+bingfinance>Money
+zunevideo>Films & TV
+bingnews>News
+onenote>OneNote
+people>People
+windowsphone>Phone
+photos>Photos
+windowsstore>Store
+bingsports>Sports
+soundrecorder>Voice Recorder
+bingweather>Weather
+xboxapp>Xbox
