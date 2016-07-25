@@ -102,6 +102,10 @@ namespace Windows_10_Configurer
             {
                 if (item == "Install Windows Photo Viewer")
                 {
+                    // http://www.howtogeek.com/225844/how-to-make-windows-photo-viewer-your-default-image-viewer-on-windows-10/
+                    // Thanks to Edwin over at TenForums for locating the required registry settings.
+                    // http://www.tenforums.com/software-apps/8930-windows-photo-viewer-gone-2.html#post290818
+
                     Registry.SetValue(@"HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\open", "MuiVerb", "@photoviewer.dll,-3043");
                     Registry.SetValue(@"HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\open\command", "@", @"hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
 00, 5c, 00, 53, 00, 79, 00, 73, 00, 74, 00, 65, 00, 6d, 00, 33, 00, 32, 00, 5c, 00, 72, 00, 75, 00,
